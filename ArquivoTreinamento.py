@@ -6,8 +6,8 @@ arrayEstadios = ['Arena do Grêmio', 'Maracanã', 'Engenhão', 'Morumbi', 'São 
 
 timeMandante  = randint(0,4)
 timeVisitante = randint(0,4)
-golsMandante  = str(randint(0,3))
-golsVisitante = str(randint(0,3))
+golsMandante  = str(randint(0,2))
+golsVisitante = str(randint(0,2))
 
 while timeMandante == timeVisitante:
     timeVisitante = randint(0,4)
