@@ -13,4 +13,4 @@ while timeMandante == timeVisitante:
     timeVisitante = randint(0,4)
 
 print ("Estádio: " + arrayEstadios[timeMandante])
-print (arrayTimes[timeMandante] + " " + golsCasa + " x " + golsVisitante + " " + arrayTimes[timeVisitante])
+print (arrayTimes[timeMandante] + " " + golsCasa + " x " + golsVisitante + "  " + arrayTimes[timeVisitante])
